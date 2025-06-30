@@ -26,7 +26,7 @@ class CharRNN(nn.Module):
         return out
 
 # Carica il testo da file
-with open("dataset.txt", "r", encoding="utf-8") as f:
+with open("../datasets/dataset.txt", "r", encoding="utf-8") as f:
     text = f.read().lower()
 
 data = torch.tensor(encode(text))
