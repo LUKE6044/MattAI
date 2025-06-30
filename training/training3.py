@@ -72,5 +72,5 @@ def train_until_converge(model, inputs, targets, max_epochs=1000, patience=20, l
 # Uso esempio
 if __name__ == "__main__":
     model = CharRNN(len(stoi), 64)
-    inputs, targets = load_dataset("dataset.txt")
+    inputs, targets = load_dataset("../datasets/dataset.txt")
     train_until_converge(model, inputs, targets)
