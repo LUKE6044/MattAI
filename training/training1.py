@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# Definiamo la RNN
+# Define RNN
 class SimpleRNN(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super(SimpleRNN, self).__init__()
@@ -15,11 +15,12 @@ class SimpleRNN(nn.Module):
         out = self.fc(out[:, -1, :])
         return out
 
-# Esempio super minimale per capire struttura
+# Super minimal example to understand the structure
 
-input_size = 10   # dimensione input (es: one-hot)
-hidden_size = 20  # neuroni nascosti
-output_size = 10  # dimensione output
+input_size = 10    # input size (e.g., one-hot)
+hidden_size = 20   # hidden neurons
+output_size = 10   # output size
+
 
 model = SimpleRNN(input_size, hidden_size, output_size).cuda()
 
