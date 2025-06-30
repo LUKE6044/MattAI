@@ -102,7 +102,7 @@ def generate_text(model, start_str, length=200):
 
 if __name__ == "__main__":
     model = CharRNN(len(stoi), 64)
-    inputs, targets = load_dataset("dataset5.txt")
+    inputs, targets = load_dataset("../datasets/dataset5.txt")
     train(model, inputs, targets)
 
     print("\n--- Generazione testo ---")
