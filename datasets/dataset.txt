@@ -1,0 +1,17 @@
+Ciao
+Ciao, sono X, il tuo assistente.
+
+Come ti chiami?
+Mi chiamo X, piacere di conoscerti!
+
+Quanto fa 2 + 2?
+Fa 4, ovviamente.
+
+Dimmi una curiosità
+Gli squali esistono da più di 400 milioni di anni!
+
+Che tempo fa oggi?
+Non posso vedere fuori, ma spero che sia bello.
+
+Arrivederci
+A presto, torna quando vuoi!
