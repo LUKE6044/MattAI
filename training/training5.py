@@ -118,7 +118,7 @@ def generate_text(model, start_str, length=200):
 # Main
 if __name__ == "__main__":
     model = CharRNN(len(stoi), 64)
-    inputs, targets = load_dataset("italy.txt")
+    inputs, targets = load_dataset("../datasets/italy.txt")
     train(model, inputs, targets)
 
     print("\n--- Generazione testo ---")
