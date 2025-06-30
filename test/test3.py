@@ -11,7 +11,7 @@ def main():
     model = training4.CharRNN(len(training4.stoi), 64).to(device)
     
     # Carica pesi
-    model.load_state_dict(torch.load("model.pth", map_location=device))
+    model.load_state_dict(torch.load("../model.pth", map_location=device))
     model.eval()
     
     
